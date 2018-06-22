@@ -1,0 +1,3 @@
+{%- import_yaml "youtubedl/defaults.yaml" as defaults -%}
+
+{%- set youtubedl = salt['pillar.get']('youtubedl:lookup', defaults.youtubedl, merge=True) -%}

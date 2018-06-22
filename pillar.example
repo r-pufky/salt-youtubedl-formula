@@ -1,0 +1,6 @@
+youtubedl:
+  lookup:
+    # see defaults.yaml for values, the options listed here
+    package_dependencies:
+      - lame
+      - libav-tools
